@@ -1,0 +1,24 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "API1",
+        "description": "Api que retorna o valor fixo do metro quadrado."
+    },
+    "paths": {
+        "/api/v1/metrics/default": {
+            "get": {
+                "summary": "Retorna o valor fixo do metro quadrado.",
+                "description": "",
+                "procuces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Sucesso"
+                    }
+                }
+            }
+        }
+    }
+}

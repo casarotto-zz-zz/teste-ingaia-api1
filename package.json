@@ -7,8 +7,7 @@
     "dev": "nodemon",
     "start": "yarn build && node build/index.js",
     "build": "rimraf ./build && tsc",
-    "start:heroku": "yarn build:heroku && node build/index.js",
-    "build:heroku": "tsc"
+    "start:heroku": "node build/index.js"
   },
   "devDependencies": {
     "@types/cors": "^2.8.10",
