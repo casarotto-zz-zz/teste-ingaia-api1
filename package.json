@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon",
     "start": "yarn build && node build/index.js",
-    "build": "rimraf ./build && tsc"
+    "build": "rimraf ./build && tsc",
+    "start:heroku": "yarn build:heroku && node build/index.js",
+    "build:heroku": "tsc"
   },
   "devDependencies": {
     "@types/cors": "^2.8.10",
