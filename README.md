@@ -12,9 +12,11 @@
 
 ## Instruções
 
-- O serviço pode ser acessado de 3 maneiras:
+- O serviço pode ser inicializado/acessado de 3 maneiras:
 * __Node__: com o comando `yarn && yarn start`
 * __Docker__: com o comando `yarn && yarn start:docker`
 * __Heroku__: https://ts-ingaia-api1.herokuapp.com/api-docs/
+
+- A api foi documentada utilizando __swagger__, que pode ser acessado pela rota `/api-docs`
 
 
