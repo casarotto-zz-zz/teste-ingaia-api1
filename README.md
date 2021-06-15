@@ -13,8 +13,8 @@
 ## Instruções
 
 - O serviço pode ser acessado de 3 maneiras:
-* _Heroku_: https://ts-ingaia-api1.herokuapp.com/api-docs/
-* _Docker_: com o comando > yarn && yarn start:docker
-* _Node_: com o comando > yarn && yarn start
+* __Node__: com o comando > `yarn && yarn start` <
+* __Docker__: com o comando > `yarn && yarn start:docker` <
+* __Heroku__: https://ts-ingaia-api1.herokuapp.com/api-docs/
 
 
